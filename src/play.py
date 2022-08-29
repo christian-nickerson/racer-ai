@@ -1,6 +1,6 @@
-from models import RLRegistry
+from agents import RLRegistry
 from stable_baselines3 import PPO
-from racer import RacingGym
+from games import RacingGym
 
 MODEL_NAME = "PPO"
 LOAD_EPISODE = 498
